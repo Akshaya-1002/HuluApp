@@ -1,5 +1,5 @@
-import React from 'react'
-import "./Header.css"
+import React from "react";
+import "./Header.css";
 import {
   Home,
   // LiveTv,
@@ -7,14 +7,14 @@ import {
   // Search,
   // VideoLibrary,
   // FlashOn
-} from "@mui/icons-material"
+} from "@mui/icons-material";
 
 const Header = () => {
   return (
-    <div className='header'>
-      <div className='header_icons'>
-        <div className='header_icon header_icon--active'>
-          <Home/>
+    <div className="header">
+      <div className="header_icons">
+        <div className="header_icon header_icon--active">
+          <Home />
           <p>Home</p>
         </div>
         {/* <div className='header_icon'>
@@ -41,7 +41,7 @@ const Header = () => {
 
       <img src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png" alt="Logo"/>
     </div>
-  )
-}
+  );
+};
 
 export default Header;
