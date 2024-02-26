@@ -2,11 +2,11 @@ import React from 'react'
 import "./Header.css"
 import {
   Home,
-  LiveTv,
-  PersonOutline,
-  Search,
-  VideoLibrary,
-  FlashOn
+  // LiveTv,
+  // PersonOutline,
+  // Search,
+  // VideoLibrary,
+  // FlashOn
 } from "@mui/icons-material"
 
 const Header = () => {
