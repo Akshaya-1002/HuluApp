@@ -13,4 +13,3 @@ export default{
     fetchAnimation:`/discover/movie?api_key=${API_KEY}&with_genres=16`,
     fetchTv:`/discover/movie?api_key=${API_KEY}&with_genres=10770`
 }
-

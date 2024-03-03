@@ -2,11 +2,11 @@ import React from "react";
 import "./Header.css";
 import {
   Home,
-  // LiveTv,
-  // PersonOutline,
-  // Search,
-  // VideoLibrary,
-  // FlashOn
+  LiveTv,
+  PersonOutline,
+  Search,
+  VideoLibrary,
+  FlashOn
 } from "@mui/icons-material";
 
 const Header = () => {
@@ -17,7 +17,7 @@ const Header = () => {
           <Home />
           <p>Home</p>
         </div>
-        {/* <div className='header_icon'>
+        <div className='header_icon'>
           <FlashOn/>
           <p>Trending</p>
         </div>
@@ -36,7 +36,7 @@ const Header = () => {
         <div className='header_icon'>
           <PersonOutline/>
           <p>Account</p>
-        </div> */}
+        </div>
       </div>
 
       <img src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png" alt="Logo"/>
